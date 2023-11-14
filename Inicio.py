@@ -19,7 +19,7 @@ st.write(
 # Puedes agregar más secciones según sea necesario
 
 # Código del desarrollador
-st.header("Desarrolladores")
+st.header("Información de contacto")
 st.write(
     "Esta aplicación fue desarrollada por Marycielo Berrio."
     " Si tiene alguna pregunta o sugerencia, no dude en contactarme al correo mberrrioz@unal.edu.co."

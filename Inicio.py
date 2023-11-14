@@ -1,3 +1,6 @@
+# Inicio.py
+
+# Resto de las importaciones
 import streamlit as st
 import pandas as pd
 import numpy as np

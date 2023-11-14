@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Información sobre la aplicación
-st.title("Data Insigth PRO")
+st.title("Data Insight PRO")
 st.write(
     "Bienvenido a nuestra aplicación de análisis de datos. "
     "Esta aplicación utiliza Numpy, Pandas y Matplotlib para realizar análisis estadísticos simples y visualizar tendencias en los datos."

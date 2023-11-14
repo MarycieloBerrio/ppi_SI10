@@ -1,20 +1,12 @@
 import streamlit as st
 
 # Información sobre la aplicación
-st.title("Análisis de Datos con Numpy, Pandas y Matplotlib")
+st.title("Data Insigth PRO")
 st.write(
     "Bienvenido a nuestra aplicación de análisis de datos. "
     "Esta aplicación utiliza Numpy, Pandas y Matplotlib para realizar análisis estadísticos simples y visualizar tendencias en los datos."
 )
 
-# Información de contacto de los desarrolladores
-st.header("Contacto de los Desarrolladores")
-st.write(
-    "Desarrollado por:\n"
-    "- [Tu Nombre]\n"
-    "- [Otro Desarrollador, si es el caso]\n"
-    "Para consultas, contáctenos en: [correo electrónico]\n"
-)
 
 # Información adicional o instrucciones para el usuario si es necesario
 st.header("Instrucciones de Uso")
@@ -29,6 +21,6 @@ st.write(
 # Código del desarrollador
 st.header("Desarrolladores")
 st.write(
-    "Esta aplicación fue desarrollada por [Tu Nombre] y [Otro Desarrollador]."
-    " Si tiene alguna pregunta o sugerencia, no dude en contactarnos."
+    "Esta aplicación fue desarrollada por Marycielo Berrio."
+    " Si tiene alguna pregunta o sugerencia, no dude en contactarme al correo mberrrioz@unal.edu.co."
 )

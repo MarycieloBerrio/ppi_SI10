@@ -24,4 +24,6 @@ if uploaded_file is not None:
     column_to_plot = st.selectbox("Seleccionar columna para visualizar", df.columns)
     plt.hist(df[column_to_plot], bins=30, edgecolor="black")
     st.pyplot()
+    plt.close()
+
 

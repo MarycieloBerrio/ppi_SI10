@@ -1,26 +1,27 @@
+# Importa las librerías necesarias
 import streamlit as st
 
-# Información sobre la aplicación
-st.title("Data Insight PRO")
-st.write(
-    "Bienvenido a nuestra aplicación de análisis de datos. "
-    "Esta aplicación utiliza Numpy, Pandas y Matplotlib para realizar análisis estadísticos simples y visualizar tendencias en los datos."
+# Configura el título y el favicon de la página
+st.set_page_config(
+    page_title="Data Insight",
+    page_icon="📊​​"
 )
 
+# Pagina de inicio
+st.title('Data Insight')
+st.write('Bienvenido a Data Insight, una calculadora de \
+         estadísticas de datos. Esta aplicación te permite\
+         realizar operaciones estadísticas básicas en tus \
+         conjuntos de datos.')
 
-# Información adicional o instrucciones para el usuario si es necesario
-st.header("Instrucciones de Uso")
-st.write(
-    "1. Cargue sus datos utilizando la opción de carga de archivos.\n"
-    "2. Realice análisis estadísticos con las herramientas proporcionadas.\n"
-    "3. Visualice tendencias utilizando los gráficos generados.\n"
-)
+st.header('Instrucciones de uso:')
+st.write('1. Haz clic en el botón "Cargar Datos" para cargar \
+         tu conjunto de datos en formato CSV.')
+st.write('2. Explora las estadísticas básicas y visualizaciones\
+          generadas automáticamente.')
+st.write('3. Utiliza las opciones de personalización.')
 
-# Puedes agregar más secciones según sea necesario
-
-# Código del desarrollador
-st.header("Información de contacto")
-st.write(
-    "Esta aplicación fue desarrollada por Marycielo Berrio."
-    " Si tiene alguna pregunta o sugerencia, no dude en contactarme al correo mberrrioz@unal.edu.co."
-)
+st.header('Información de Contacto:')
+st.write('Desarrollado por Marycielo Berrio')
+st.write('Correo Electrónico: mberrioz@unal.edu.co')
+st.write('Colaborador: ChatGPT')
